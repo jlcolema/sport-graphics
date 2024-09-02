@@ -1,0 +1,28 @@
+#body {
+
+	#primary {
+
+		/* Columns */
+
+		.columns {
+
+			.column {
+
+				&.feed {
+
+					article {
+
+						height: auto !important;
+						margin-bottom: 20px;
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}

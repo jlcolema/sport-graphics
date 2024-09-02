@@ -1,0 +1,116 @@
+
+#header {
+
+	position: relative;
+	max-width: 1062px;
+	margin: 0 auto;
+	padding-bottom: 8px;
+	z-index: 5;
+
+	.inner-wrap {
+		position: relative;
+		height: 150px;
+		padding-top: 45px;
+		border-bottom: 1px solid rgb(199, 199, 199);
+		z-index: 1;
+		}
+
+	hgroup {
+
+		max-width: 1062px;
+		height: 150px;
+		background: rgb(224, 224, 224);
+
+		#site-title {
+
+			position: absolute;
+			left: 0;
+			top: 71px;
+			text-indent: -9999px;
+			z-index: 5;
+
+			a {
+				// display: block;
+				// width: 190px;
+				// height: 97px;
+				// background: url(-/media/logo.png);
+				}
+
+			a:hover {}
+
+		}
+
+		#site-description { display: none; }
+
+	}
+
+	/* Primary Navigation */
+
+	#access {
+
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 45px;
+		z-index: 9999;
+
+		.toggle {
+
+			.show-hide {
+				background: url(-/media/show-navigation@2x.png);
+				background-size: 160px 12px;
+				}
+
+			&.active {
+
+				.show-hide { background: url(-/media/hide-navigation@2x.png); }
+
+			}
+
+		}
+
+	}
+
+	/* Search */
+
+	.search {
+
+		.social {
+
+			li {
+
+				a {
+
+					display: block;
+					width: 24px;
+					height: 23px;
+					background: url(-/media/icons.png);
+
+				}
+
+				&.twitter {
+	
+					a { background-position: -24px; }
+	
+				}
+	
+				&.linkedin {
+	
+					a { background-position: -48px; }
+	
+				}
+	
+				&.facebook {
+	
+					a { background-position: -72px; }
+
+				}
+
+			}
+
+		}
+
+	}
+
+}

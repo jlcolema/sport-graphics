@@ -1,0 +1,40 @@
+// Grid
+
+$total-columns  : 12;             // a 12-column grid
+$column-width   : 78px;            // each column is 4em wide
+$gutter-width   : 4px;            // 1em gutters between columns
+$grid-padding   : 0;  // grid-padding equal to gutters
+
+// Typography
+
+$basefont: Arial, Helvetica, sans-serif;
+$basefontsize: 12;
+$baselineheight: 1.5em;
+// $basefontweight: 400;
+// $baseheadingfont: inherit;
+// $baseheadingfontweight: bold;
+// $baseheadingfontcolor: inherit;
+
+$altfont: "Geogrotesque Semibold", Arial, Helvetica, sans-serif;
+// $altlineheight: 1.35em;
+
+$tertiaryfont: Varela, Arial, Helvetica, sans-serif;
+// $tertiarylineheight: 1.35em;
+
+// $codefont: Monaco, Courier New, monospace;
+
+// Grayscale
+
+$black: rgb(0, 0, 0);
+$white: rgb(255, 255, 255);
+
+// Colors
+
+$primary-color: rgb(66, 104, 130); // Blue
+$secondary-color: rgb(0, 57, 90); // Dark Blue
+$tertiary-color: rgb(0, 174, 255); // Cyan
+
+
+$lightgray: rgb(153, 153, 153);
+$gray: rgb(113, 113, 113);
+// $darkgray: rgb(102, 102, 102);

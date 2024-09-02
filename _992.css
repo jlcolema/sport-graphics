@@ -1,0 +1,5 @@
+#primary { /* Sections (for columns) */ }
+#primary .columns .column.feed article { display: inline-block; width: 49.5%; margin-bottom: 20px !important; vertical-align: top; }
+#primary .columns .column.feed article:nth-child(1n + 3) { margin-bottom: 0 !important; }
+#primary .columns .column.feed article .inner-wrap { padding: 0 17px; }
+#primary .columns .column.testimonials .container ul { padding: 0 17px; }

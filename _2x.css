@@ -1,0 +1,12 @@
+#header { position: relative; max-width: 1062px; margin: 0 auto; padding-bottom: 8px; z-index: 5; /* Primary Navigation */ /* Search */ }
+#header .inner-wrap { position: relative; height: 150px; padding-top: 45px; border-bottom: 1px solid #c7c7c7; z-index: 1; }
+#header hgroup { max-width: 1062px; height: 150px; background: #e0e0e0; }
+#header hgroup #site-title { position: absolute; left: 0; top: 71px; text-indent: -9999px; z-index: 5; }
+#header hgroup #site-description { display: none; }
+#header #access { position: absolute; left: 0; top: 0; width: 100%; height: 45px; z-index: 9999; }
+#header #access .toggle .show-hide { background: url(-/media/show-navigation@2x.png); background-size: 160px 12px; }
+#header #access .toggle.active .show-hide { background: url(-/media/hide-navigation@2x.png); }
+#header .search .social li a { display: block; width: 24px; height: 23px; background: url(-/media/icons.png); }
+#header .search .social li.twitter a { background-position: -24px; }
+#header .search .social li.linkedin a { background-position: -48px; }
+#header .search .social li.facebook a { background-position: -72px; }
